@@ -1,0 +1,31 @@
+﻿  main.cpp
+..\..\..\..\..\Desktop\os2\projekat\javni_test\main.cpp(30): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned int', possible loss of data
+..\..\..\..\..\Desktop\os2\projekat\javni_test\main.cpp(34): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned int', possible loss of data
+  ProcessTest.cpp
+..\..\..\..\..\Desktop\os2\projekat\javni_test\ProcessTest.cpp(37): warning C4018: '<': signed/unsigned mismatch
+..\..\..\..\..\Desktop\os2\projekat\javni_test\ProcessTest.cpp(62): warning C4018: '<': signed/unsigned mismatch
+..\..\..\..\..\Desktop\os2\projekat\javni_test\ProcessTest.cpp(134): warning C4018: '<': signed/unsigned mismatch
+..\..\..\..\..\Desktop\os2\projekat\javni_test\ProcessTest.cpp(139): warning C4018: '<': signed/unsigned mismatch
+..\..\..\..\..\Desktop\os2\projekat\javni_test\ProcessTest.cpp(143): warning C4244: '=': conversion from 'VirtualAddress' to 'char', possible loss of data
+  RandomNumberGenerator.cpp
+  SystemTest.cpp
+  KernelSystem.cpp
+KernelSystem.cpp(125): warning C4018: '<': signed/unsigned mismatch
+KernelSystem.cpp(132): warning C4018: '<': signed/unsigned mismatch
+KernelSystem.cpp(201): warning C4552: '|': operator has no effect; expected operator with side-effect
+  KernelProcess.cpp
+KernelProcess.cpp(71): warning C4018: '<': signed/unsigned mismatch
+KernelProcess.cpp(203): warning C4018: '<': signed/unsigned mismatch
+KernelProcess.cpp(373): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+  Process.cpp
+  provere.cpp
+  System.cpp
+part.lib(part.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in main.obj
+part.lib(part.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in main.obj
+part.lib(part.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+part.lib(PartitionImpl.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in main.obj
+part.lib(PartitionImpl.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in main.obj
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+part.lib(PartitionImpl.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+part.lib(PartitionImpl.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+C:\Users\Jelena-PC\Documents\Visual Studio 2015\Projects\OS2\Release\OS2.exe : fatal error LNK1120: 2 unresolved externals
